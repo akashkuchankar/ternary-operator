@@ -10,9 +10,8 @@ namespace ternary_operator
     {
         static void Main(string[] args)
         {
-            int a = 10, b = 20;
-            int c = (a<b) ? a : b;
-            Console.WriteLine(c);
+            int a = 10;
+            Console.WriteLine($"{--a} {a++} {++a} {--a}");
         }
     }
 }
